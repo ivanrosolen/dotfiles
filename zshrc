@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="mytheme"
+ZSH_THEME="robbyrussell"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -29,7 +29,7 @@ ZSH_THEME="mytheme"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rvm ruby rails)
+plugins=(git )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -39,5 +39,3 @@ export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X1
 export LANG=pt_BR.UTF-8
 export SVN_EDITOR=vim 
 export EDITOR=vim
-
-export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
